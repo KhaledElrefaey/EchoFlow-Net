@@ -14,6 +14,7 @@ This notebook is for training a segmentation model, computing left-ventricular e
 ---
 
 ## Main Results
+The results below were obtained using the default stated configurations in the notebook
 | Stage | MAE (%) | Bias (%) | SD (%) | LoA | r | R² |
 |:------|:---------|:----------|:--------|:----------------|:--:|:--:|
 | Pre-calibration | 6.30 [5.54,7.07]  | 3.32 [1.98,4.60]  | 6.71  | [-9.84,16.47]  | 0.847 | 0.717 |
