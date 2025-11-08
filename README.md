@@ -80,23 +80,22 @@ The notebook trains a segmentation model, computes ejection fractions from LV ca
 
 | Example | Description |
 |:--|:--|
-| ![Scatter Plot](./1.png) | Predicted vs. Ground Truth EF Pre-Processing|
-| ![Scatter Plot](./2.png) | Predicted vs. Ground Truth EF Post-Processing|
-| ![Scatter Plot](./3.png) | Predicted vs. Ground Truth EF Pre- AND Post-Calibration|
-| ![Bland-Altman](./4.png) | Bland–Altman Pre-Processing |
-| ![Bland-Altman](./5.png) | Bland–Altman Post-Processing |
-| ![Bland-Altman](./6.png) | Bland–Altman after calibration |
-| ![Training Curve](./7.png) | Training and validation losses |
+| ![Scatter Plot](./results/1.png) | Predicted vs. Ground Truth EF Pre-Processing|
+| ![Scatter Plot](./results/2.png) | Predicted vs. Ground Truth EF Post-Processing|
+| ![Scatter Plot](./results/3.png) | Predicted vs. Ground Truth EF Pre- AND Post-Calibration|
+| ![Bland-Altman](./results/4.png) | Bland–Altman Pre-Processing |
+| ![Bland-Altman](./results/5.png) | Bland–Altman Post-Processing |
+| ![Bland-Altman](./results/6.png) | Bland–Altman after calibration |
+| ![Training Curve](./results/7.png) | Training and validation losses |
 
-LV segmentation (ED/ES frames) 2 CH and 4 CH Views (Examples)
-
+| LV segmentation (ED/ES frames) 2 CH and 4 CH Views (Examples) |
 |:--|
-| ![Segmentation Results](./8.png) |
-| ![Segmentation Results](./9.png) |
-| ![Segmentation Results](./10.png) |
-| ![Segmentation Results](./11.png) |
-| ![Segmentation Results](./12.png) |
-| ![Segmentation Results](./13.png) |
+| ![Segmentation Results](./results/8.png) |
+| ![Segmentation Results](./results/9.png) |
+| ![Segmentation Results](./results/10.png) |
+| ![Segmentation Results](./results/11.png) |
+| ![Segmentation Results](./results/12.png) |
+| ![Segmentation Results](./results/13.png) |
 ---
 
 ## 🧬 Citation
