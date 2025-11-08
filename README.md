@@ -42,11 +42,10 @@ The notebook trains a segmentation model, computes ejection fractions from LV ca
    - Calculates EF via **Simpson’s biplane formula** using segmented LV cavities.
 
 5. **Calibration and Evaluation**
-   - Applies linear or isotonic calibration.
    - Computes metrics: MAE, Bias, SD, Limits of Agreement, Pearson’s *r*, and R².
 
 6. **Visualization**
-   - Training curves, scatter plots, and Bland–Altman plots (pre/post calibration).
+   - Scatter plots and Bland–Altman plots (pre/post calibration).
 
 ---
 
@@ -71,7 +70,7 @@ The notebook trains a segmentation model, computes ejection fractions from LV ca
    ```
 3. Launch the notebook:
    ```bash
-   jupyter notebook Deep_Learning_with_PyTorch_ImageSegmentation.ipynb
+   jupyter notebook EchoEF-Net.ipynb
    ```
 4. Run all cells to reproduce training, EF estimation, and evaluation.
 
@@ -81,11 +80,14 @@ The notebook trains a segmentation model, computes ejection fractions from LV ca
 
 | Example | Description |
 |:--|:--|
-| ![Segmentation Results](./1.png) | LV segmentation (ED/ES frames) |
-| ![Scatter Plot](./3.png) | Predicted vs. Reference EF |
-| ![Bland-Altman](./4.png) | Bland–Altman before calibration |
-| ![Calibrated Results](./5.png) | Improved agreement after calibration |
-| ![Training Curve](./6.png) | Training and validation losses |
+| ![Segmentation Results](./1.png) | LV segmentation (ED/ES frames) 2 CH and 4 CH Views |
+| ![Scatter Plot](./2.png) | Predicted vs. Ground Truth EF Pre-Processing|
+| ![Scatter Plot](./3.png) | Predicted vs. Ground Truth EF Post-Processing|
+| ![Scatter Plot](./4.png) | Predicted vs. Ground Truth EF Pre- AND Post-Calibration|
+| ![Bland-Altman](./5.png) | Bland–Altman Pre-Processing |
+| ![Bland-Altman](./6.png) | Bland–Altman Post-Processing |
+| ![Bland-Altman](./7.png) | Bland–Altman after calibration |
+| ![Training Curve](./8.png) | Training and validation losses |
 
 ---
 
