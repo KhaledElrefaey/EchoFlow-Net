@@ -16,8 +16,8 @@ The notebook trains a segmentation model, computes ejection fractions from LV ca
 ## 📊 Key Results
 | Stage | MAE (%) | Bias (%) | SD (%) | LoA | r | R² |
 |:------|:---------|:----------|:--------|:----------------|:--:|:--:|
-| Pre-calibration | 7.31 [6.35–8.29] | +4.38 [2.78–5.77] | 7.80 | [-10.90, 19.65] | 0.807 | 0.651 |
-| Post-calibration | **5.39 [4.51–6.34]** | **–0.03 [–1.49, 1.27]** | 7.21 | [–14.16, 14.10] | 0.799 | 0.638 |
+| Pre-calibration | 6.30 [5.54,7.07]  | 3.32 [1.98,4.60]  | 6.71  | [-9.84,16.47]  | 0.847 | 0.717 |
+| Post-calibration | 4.98 [4.24,5.78] | -0.01 [-1.26,1.19] | 6.40 | [-12.55,12.54] | 0.845 | 0.714 |
 
 > Calibration reduces systematic bias and improves clinical reliability of EF prediction.
 
