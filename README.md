@@ -1,8 +1,8 @@
-# EchoEF-Net: Automated Ejection Fraction Estimation from Echocardiographic Segmentation using Deep Learning and Calibration
+# EchoEF-Net: Automated Estimation OF Left-Ventricular Ejection Fraction from Echocardiographic Segmentation using Deep Learning and Calibration
 
-**Author:** Khaled Mohammed Elzekarey Elrefaey, MBBS  
-**Independent Researcher**  
-**Target Journal:** Frontiers in Cardiovascular Medicine  
+**Author:** Elrefaey,K,M,E  
+**An Independent Researcher**  
+**The Target Journal:** Frontiers in Cardiovascular Medicine  
 **Date:** November 2025  
 
 ---
@@ -19,7 +19,7 @@ This notebook is for training a segmentation model, computing left-ventricular e
 | Pre-calibration | 6.30 [5.54,7.07]  | 3.32 [1.98,4.60]  | 6.71  | [-9.84,16.47]  | 0.847 | 0.717 |
 | Post-calibration | 4.98 [4.24,5.78] | -0.01 [-1.26,1.19] | 6.40 | [-12.55,12.54] | 0.845 | 0.714 |
 
-> Calibration was found to reduce systematic bias and enhance clinical reliability of LVEF prediction.
+> Calibration was found to decrease bias and improve reliability of LVEF prediction.
 
 ---
 
@@ -30,16 +30,15 @@ This notebook is for training a segmentation model, computing left-ventricular e
    - Splitting data into training and validation sets
 
 2. **Architecture of the Model**
-   - Implementing segmentation models using **Segmentation Models PyTorch (SMP)**.
-   - Supporting different encoder configurations such as ResNet and EfficientNet.
+   - Using **Segmentation Models PyTorch (SMP)**.
+   - Supporting different configurations and encoders such as ResNet and EfficientNet.
    - Loss: using Dice + Cross-Entropy.
 
 3. **Training and Validation**
-   - Showing training progress.
-   - Automatically saving best model checkpoints.
+   - Showing the progress of training and automatically saving best model checkpoint.
 
 4. **Computing Ejection Fraction**
-   - Calculating LVEF by **Simpson’s biplane formula** using segmented LV cavities.
+   - Calculating Left-Ventricular EF by **Simpson’s biplane formula** using segmentations.
 
 5. **Calibration and Evaluation**
    - Computing important metrics: MAE, Bias, SD, Limits of Agreement, Pearson’s *r*, and R².
@@ -53,7 +52,7 @@ This notebook is for training a segmentation model, computing left-ventricular e
 
 ### Requirements
 - Python ≥ 3.9  
-- Jupyter Notebook / JupyterLab  
+- Jupyter Notebook  
 - PyTorch ≥ 2.0  
 - segmentation-models-pytorch  
 - OpenCV, NumPy, Pandas, Matplotlib, SciPy  
@@ -102,15 +101,13 @@ Elrefaey, K. M. E. (2025). EchoEF-Net: Automated Ejection Fraction Estimation fr
 
 ---
 
-## 📜 License
+## License
 This project is released under the **MIT License**.  
 Free for academic and non-commercial use with attribution.
 
 ---
 
-## ❤️ Acknowledgments
+## Acknowledgments
 - **CAMUS Dataset:** Leclerc et al., *Medical Image Analysis*, 2019.  
-- Built with **PyTorch** and **Segmentation Models PyTorch (SMP)**.  
-- Dedicated to open, reproducible AI research in echocardiography.
-
+- Built with **PyTorch** and **Segmentation Models PyTorch (SMP)**.
 ---
