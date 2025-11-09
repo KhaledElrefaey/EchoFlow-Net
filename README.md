@@ -1,4 +1,4 @@
-# EchoEF-Net: Automated Estimation OF Left-Ventricular Ejection Fraction from Echocardiographic Segmentation using Deep Learning and Calibration
+# EchoFlow-Net: Automated Estimation OF Left-Ventricular Ejection Fraction from Echocardiographic Segmentation using Deep Learning and Calibration
 
 **Author:** Elrefaey,K.M.E (MBBS)  
 **An Independent Researcher**  
@@ -8,7 +8,7 @@
 ---
 
 ## Overview
-**EchoEF-Net** is a pipeline that uses deep learning, implemented completely in a single **Jupyter Notebook (`.ipynb`)** for the purpose of automated estimation of left-ventricular ejection fraction (LVEF) from echocardiographic segmentation using **CAMUS dataset**.  
+**EchoFlow-Net** is a pipeline that uses deep learning, implemented completely in a single **Jupyter Notebook (`.ipynb`)** for the purpose of automated estimation of left-ventricular ejection fraction (LVEF) from echocardiographic segmentation using **CAMUS dataset**.  
 This notebook is for training a segmentation model, computing left-ventricular ejection fractions from LV cavity contours, and then applying **calibration** to improve agreement with reference measurements.
 
 ---
@@ -61,12 +61,12 @@ The results below were obtained using the default stated configurations in the n
 ### Steps
 1. First clone the repository:
    ```bash
-   git clone https://github.com/KhaledElrefaey/EchoEF-Net.git
-   cd EchoEF-Net
+   git clone https://github.com/KhaledElrefaey/EchoFlow-Net.git
+   cd EchoFlow-Net
    ```
 2. Then launch the notebook:
    ```bash
-   jupyter notebook EchoEF-Net.ipynb
+   jupyter notebook EchoFlow-Net.ipynb
    ```
 3. After that run all cells to install dependecies and reproduce training, EF estimation, and evaluation.
 
@@ -97,7 +97,7 @@ The results below were obtained using the default stated configurations in the n
 ## Citation
 Usin this notebook, please cite:
 ```
-Elrefaey, K. M. E. (2025). EchoEF-Net: Automated Ejection Fraction Estimation from Echocardiographic Segmentation using Deep Learning and Calibration. *Frontiers in Cardiovascular Medicine*. Under Review.
+Elrefaey, K. M. E. (2025). EchoFlow-Net: Automated Ejection Fraction Estimation from Echocardiographic Segmentation using Deep Learning and Calibration. *Frontiers in Cardiovascular Medicine*. Under Review.
 ```
 
 ---
