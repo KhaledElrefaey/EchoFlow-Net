@@ -1,6 +1,6 @@
 # EchoEF-Net: Automated Estimation OF Left-Ventricular Ejection Fraction from Echocardiographic Segmentation using Deep Learning and Calibration
 
-**Author:** Elrefaey,K,M,E  
+**Author:** Elrefaey,K.M.E (MBBS)  
 **An Independent Researcher**  
 **The Target Journal:** Frontiers in Cardiovascular Medicine  
 **Date:** November 2025  
