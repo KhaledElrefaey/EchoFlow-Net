@@ -97,7 +97,7 @@ The results below were obtained using the default stated configurations in the n
 ## Citation
 Usin this notebook, please cite:
 ```
-Elrefaey, K. M. E. (2025). EchoFlow-Net: Automated Ejection Fraction Estimation from Echocardiographic Segmentation using Deep Learning and Calibration. *Frontiers in Cardiovascular Medicine*. Under Review.
+Elrefaey, K. M. E. (2025). EchoFlow-Net: Automated Ejection Fraction Estimation from Echocardiographic Segmentation using Deep Learning and Calibration.
 ```
 
 ---
