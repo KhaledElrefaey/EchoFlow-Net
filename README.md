@@ -2,7 +2,6 @@
 
 **Author:** Elrefaey,K.M.E (MBBS)  
 **An Independent Researcher**  
-**The Target Journal:** Frontiers in Cardiovascular Medicine  
 **Date:** November 2025  
 
 ---
