@@ -2,12 +2,13 @@ numpy==2.0.2
 pandas==2.2.2
 matplotlib==3.10.0
 tqdm==4.67.1
-Pillow==11.3.0
+pillow==11.3.0
 opencv-python==4.12.0.88
+opencv-python-headless==4.12.0.88
 albucore==0.0.28
 albumentations @ git+https://github.com/albumentations-team/albumentations@66212d77a44927a29d6a0e81621d3c27afbd929c
-torch==2.8.0+cu126
-torchvision==0.23.0+cu126
-timm==1.0.21
-segmentation-models-pytorch==0.5.0
+torch==2.9.0+cu126
+torchvision==0.24.0+cu126
+timm==1.0.22
+segmentation_models_pytorch==0.5.0
 scipy==1.16.3
